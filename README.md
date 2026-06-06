@@ -75,6 +75,22 @@ Certificate thumbprint: `F109EBB27DAA43A63C86C54A1DDEFFD24B549F21`.
 
 ---
 
+## Example: confirm a QSO
+
+1. Start the app — it auto-logs in with your saved settings.
+2. Type the other station's call in **Correspondent** and press **Enter** (or click **QSOs**).
+   The app pulls your QSO log for that station from the QRZ Logbook and builds a **QSO
+   confirmation card**.
+3. Review the rendered label in the **Label** preview tabs (the **ZPL** tab shows the code).
+4. Tweak **Position**/**Darkness** if needed, or edit the source text and click **Update** to
+   regenerate.
+5. Click **Print** — or set a copy **count** and click **Repeat** for several copies.
+
+*Need an address label instead?* Type the call in **Correspondent**, click **Address** (or
+**Envelope**), then **Print**.
+
+---
+
 ## Printer setup (Zebra GX430t)
 
 Reference configuration for a Zebra GX430t — match these settings for correct label
