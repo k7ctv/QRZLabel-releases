@@ -11,6 +11,11 @@ an on-screen tabbed **preview**.
 
 ![QRZ Label — main window](docs/screenshot.png)
 
+*Tabbed preview — a multi-QSO confirmation card rendered across several **Label** tabs
+plus the **ZPL** code tab:*
+
+![Tabbed preview with multiple Label tabs](docs/ZPL_Viewer_Sample.png)
+
 ---
 
 ## Download & install
