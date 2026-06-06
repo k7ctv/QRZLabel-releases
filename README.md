@@ -9,6 +9,8 @@ an on-screen tabbed **preview**.
 > This repository hosts the **ready-to-run installer only**. The source code is not included.
 > © K7CTV — Igor Dorovskoy.
 
+![QRZ Label — main window](docs/screenshot.png)
+
 ---
 
 ## Download & install
