@@ -74,6 +74,16 @@ Certificate thumbprint: `F109EBB27DAA43A63C86C54A1DDEFFD24B549F21`.
 
 ---
 
+## Printer setup (Zebra GX430t)
+
+Reference configuration for a Zebra GX430t — match these settings for correct label
+sizing and darkness:
+
+![Zebra GX430t configuration, part 1](docs/Zebra_GX430t_Config_1.png)
+![Zebra GX430t configuration, part 2](docs/Zebra_GX430t_Config_2.png)
+
+---
+
 ## License
 
 Freeware, provided **as-is**, without warranty of any kind. You may use and redistribute the
