@@ -50,6 +50,7 @@ Certificate thumbprint: `F109EBB27DAA43A63C86C54A1DDEFFD24B549F21`.
 
 - **Windows** (the app is a native Win32 program; runs on 32- and 64-bit Windows).
 - A **Zebra-compatible ZPL label printer** (e.g. Zebra GX430t) installed as a Windows printer.
+  Labels are designed for the **2 × 1 inch** label size.
 - A **QRZ.com account**:
   - Callsign + password — to look up callsign/address data via the QRZ **XML** interface
     (full address data generally needs an active QRZ **XML Logbook Data** subscription).
@@ -77,7 +78,7 @@ Certificate thumbprint: `F109EBB27DAA43A63C86C54A1DDEFFD24B549F21`.
 ## Printer setup (Zebra GX430t)
 
 Reference configuration for a Zebra GX430t — match these settings for correct label
-sizing and darkness:
+sizing and darkness. The labels are designed for the **2 × 1 inch** size:
 
 ![Zebra GX430t configuration, part 1](docs/Zebra_GX430t_Config_1.png)
 ![Zebra GX430t configuration, part 2](docs/Zebra_GX430t_Config_2.png)
