@@ -46,6 +46,16 @@ Certificate thumbprint: `F109EBB27DAA43A63C86C54A1DDEFFD24B549F21`.
 
 ---
 
+## Version history
+
+- **[v1.4.0.0](../../releases/tag/v1.4.0.0)** (2026-07-25) — QSOs import now works **without** a QRZ Logbook API key: with the API Key field empty, the app signs in to the QRZ.com website and fetches your callsign-filtered QSOs (multi-page results combined; requires two-factor login to be **off**).
+- **[v1.3.0.0](../../releases/tag/v1.3.0.0)** (2026-06-10) — QSL-sent **history tracking** with a dedicated history viewer; the QSL "amber" flag now matches on exact **Call + Band + Mode**.
+- **[v1.2.0.0](../../releases/tag/v1.2.0.0)** (2026-06-05) — **Tabbed label preview** (one *Label* tab per label plus a *ZPL* code tab, auto-refreshing); **Check → Log** produces ADIF instead of labels; renamed the right-panel *Preview* button to **QSO Card**.
+- **[v1.1.2.0](../../releases/tag/v1.1.2.0)** (2026-06-05) — Bug-fix release: **Print** with no printer selected no longer crashes; offline or unreachable QRZ/Labelary now shows a friendly message; **Check / ADIF export** output fixed.
+- **[v1.1.1.0](../../releases/tag/v1.1.1.0)** (2026-06-02) — First public release of the standalone installer.
+
+---
+
 ## Requirements
 
 - **Windows** (the app is a native Win32 program; runs on 32- and 64-bit Windows).
