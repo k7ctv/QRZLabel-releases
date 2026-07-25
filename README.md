@@ -54,7 +54,9 @@ Certificate thumbprint: `F109EBB27DAA43A63C86C54A1DDEFFD24B549F21`.
 - A **QRZ.com account**:
   - Callsign + password — to look up callsign/address data via the QRZ **XML** interface
     (full address data generally needs an active QRZ **XML Logbook Data** subscription).
-  - A QRZ **Logbook API key** — only needed for the **QSOs** feature (pulling your log).
+  - A QRZ **Logbook API key** — *optional*. The **QSOs** feature works without it: with the
+    API Key field left empty, the app signs in to the QRZ.com **website** to pull your log
+    (requires two-factor login to be **off**). Set a key to use the QRZ Logbook **API** instead.
 - **Internet access** for QRZ lookups and the on-screen label preview (rendered by the
   online Labelary service). The required OpenSSL DLLs are included by the installer.
 
@@ -79,7 +81,8 @@ Certificate thumbprint: `F109EBB27DAA43A63C86C54A1DDEFFD24B549F21`.
 
 1. Start the app — it auto-logs in with your saved settings.
 2. Type the other station's call in **Correspondent** and press **Enter** (or click **QSOs**).
-   The app pulls your QSO log for that station from the QRZ Logbook and builds a **QSO
+   The app pulls your QSO log for that station from the QRZ Logbook — via the API if you set
+   an **API Key**, otherwise by signing in to the QRZ.com website — and builds a **QSO
    confirmation card**.
 3. Review the rendered label in the **Label** preview tabs (the **ZPL** tab shows the code).
 4. Tweak **Position**/**Darkness** if needed, or edit the source text and click **Update** to
